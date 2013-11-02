@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.273em;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #d04526;
+  /*color: #d04526;  */
 }
 
 @media only screen and (max-width: 767px) {
@@ -261,13 +261,13 @@ p.lead {
 }
 
 a {
-  color: #d04526;
+  color: #2b60d0;
   text-decoration: none;
   outline: 0;
   line-height: inherit;
 }
 a:hover {
-  color: #c03d20;
+ /* color: #c03d20;  */
 }
 
 /*=====================================================
@@ -8868,8 +8868,8 @@ table.rounded > tbody:first-child tr:first-child td {
 * Site Header
 *****************************************************/
 .site-header {
-  background-color: #42a35a;
-  background-image: url("http://i.imgur.com/Uhlx37m.jpg");
+  background-color: #4DBCF0;
+  background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -9388,11 +9388,140 @@ border-radius: 20px;
   margin-top: 40px;
 }
 
+
+/**
+* Schedule Section
+*****************************************************/
+.section-schedule {
+    padding: 50px 0 60px 0;
+    background: #1a1e23 url('../img/parallax1.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    height: 400px;
+}
+
+.schedule-wrapper {
+    padding: 12px 15px;
+    margin: 0 auto;
+    max-width: 700px;
+
+}
+
+.schedule-day1 {
+    float: left;
+    padding: 12px 15px;
+    background-color: rgba(255,255,255,0.8);
+    width: 320px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.schedule-day2 {
+    float: right;
+    padding: 12px 15px;
+    background-color: rgba(255,255,255,0.8);
+    width: 320px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.schedule-line {
+    font-family: "Open Sans","Arial",sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/**
+* Team Section
+****************************************************************/
+
+.section-team {
+    background-color: #188fb0;
+    text-align: center;
+}
+
+.team-wrapper {
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.team-member {
+    display: block;
+    width: 145px;
+    height: 230px;
+    float: left;
+    background-color: #fff;
+    margin: 10px 10px;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+
+}
+
+.team-fullname {
+    font-size: 20px;
+    color: #414344;
+}
+
+.team-photo {
+     padding: 10px;
+
+}
+
+.team-photo .img {
+    border-radius: 30px;
+}
+
+.team-desc {
+     font-size: 12px;
+     padding: 1 px;
+}
+
+
+/**
+* Schedule Section
+*****************************************************/
+.section-partners {
+    padding: 50px 0 60px 0;
+    background: #1a1e23 url('../img/parallax2.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    height: 400px;
+}
+
+.partners-wrapper {
+    padding: 12px 15px;
+    margin: 0 auto;
+    width: 900px;
+    display: inline-block;
+}
+
+.partner {
+    display: block;
+    float: left;
+    padding: 12px 15px;
+    background-color: rgba(255,255,255,0.8);
+    width: 250px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
 /**
 * Sign Up Section 
 *****************************************************/
 .section-signup {
-  background-color: #42a35a;
+  background-color: rgba(228, 115, 186, 0.73);
 }
 .section-signup h1, .section-signup h2, .section-signup h3, .section-signup h4, .section-signup h5, .section-signup h6, .section-signup p {
   color: #fff;
@@ -9560,3 +9689,8 @@ border-radius: 20px;
 .social-link:hover {
   color: #b7bab8;
 }
+
+.white {
+    color: #fff;
+}
+
