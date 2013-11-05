@@ -8912,8 +8912,9 @@ border-radius: 20px;
 }
 .bordered-button:hover {
   color: #fff;
-  border-color: #1a1e23;
-  background-color: #1a1e23;
+  border: 5px;
+  border-color: #fff;
+  background-color: rgba(251, 140, 221, 0.7);;
 }
 
 /**
@@ -9439,7 +9440,7 @@ border-radius: 20px;
 ****************************************************************/
 
 .section-team {
-    background-color: #188fb0;
+    background-color: #44bede;
     text-align: center;
 }
 
@@ -9488,7 +9489,7 @@ border-radius: 20px;
 
 
 /**
-* Schedule Section
+* Partners Section
 *****************************************************/
 .section-partners {
     padding: 50px 0 60px 0;
@@ -9521,7 +9522,8 @@ border-radius: 20px;
 * Sign Up Section 
 *****************************************************/
 .section-signup {
-  background-color: rgba(228, 115, 186, 0.73);
+  background-color: #44bede;
+  text-align: center;
 }
 .section-signup h1, .section-signup h2, .section-signup h3, .section-signup h4, .section-signup h5, .section-signup h6, .section-signup p {
   color: #fff;
@@ -9566,6 +9568,9 @@ border-radius: 20px;
   border-color: #d62c1a;
 }
 
+.section-signup .bordered-button {
+    margin-top: 15px;
+}
 .large-input-side, .large-btn-side {
   padding: 20px;
   display: inline-block;
@@ -9594,7 +9599,8 @@ border-radius: 20px;
 
 .large-btn-side {
   width: 30%;
-  margin-left: -5px;
+  margin-left: auto;
+  margin-right:auto;
   border: 5px solid #337f46;
   font-size: 18px;
   text-transform: uppercase;
