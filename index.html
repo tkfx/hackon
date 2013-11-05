@@ -141,7 +141,7 @@
 						</span>
 					</span>						
 					<h3>Mentors</h3>
-                    <p>Developers, designers and UX specialists from top companies and startups will be giving technical assistance the teams</p>
+                    <p>Developers, designers and UX specialists from top companies and startups will be giving technical assistance to the teams</p>
 				</li>
 				<!-- /END: Feature Item -->
 				<!-- START: Feature Item -->
@@ -204,20 +204,23 @@
             </div>
         </section>
 		<!-- START: Sign Up Section -->
-		<section class="site-section section-signup">
+		<section class="site-section section-signup" data-target="signup">
 			<!-- START: Animation Wrapper -->
 			<div class="animate-on-scroll" data-scrollanimation="fadeDownIn">
 				<!-- START: Section Header -->
 				<div class="row section-header">
 					<div class="twelve columns">
-						<h2>Apply now to paticipate in HackOn!</h2>
+						<h2>Apply now to participate in HackOn!</h2>
                         <h5>Only 70 participants will be chosen, notifications will be sent a week prior to the hackathon</h5>
 					</div>
 				</div>
 				<!-- /END: Section Header -->
 				<div class="row">
-						<a href="#" class="large-btn-side">sss</a>
-				</div>
+                    <div class="twelve columns">
+						<a href="http://goo.gl/fDit1c" target="_blank" class=" bordered-button">Sign up</a>
+
+                    </div>
+                 </div>
 			</div>	
 			<!-- /END: Animation Wrapper  -->
 		</section>		
@@ -288,13 +291,16 @@
 	<!-- Custom theme specific interaction -->
 	<script src="js/theme.js"></script>
 
-	<!-- Change UA-XXXXX-X to be your site's ID -->
-	<!--<script>
-	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-	Modernizr.load({
-	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-	});
-	</script>-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-45454041-1', 'gdg.co.il');
+        ga('send', 'pageview');
+
+    </script>
 
 	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
 	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
