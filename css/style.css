@@ -8987,12 +8987,12 @@ border-radius: 20px;
   position: relative;
   display: block;
   border-radius: 50%;
-  border: 13px solid rgba(0, 0, 0, 0.4);
-  width: 240px;
-  height: 240px;
+  border: 13px solid rgba(122, 185, 253, 0.40);
+  width: 250px;
+  height: 250px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 150px;
   overflow: hidden;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -9001,8 +9001,8 @@ border-radius: 20px;
 }
 .circled-image-1:hover, .circled-image-2:hover, .circled-image-3:hover {
   overflow: visible;
-  border: 120px solid rgba(0, 0, 0, 0.4);
-  background-size: 370px;
+  border: 125px solid rgba(122, 185, 253, 0.40);
+  background-size: 300px;
 }
 .circled-image-1:hover .fi-label, .circled-image-2:hover .fi-label, .circled-image-3:hover .fi-label {
   margin-top: -40px;
@@ -9038,11 +9038,11 @@ border-radius: 20px;
 * used to set background image.
 *****************/
 .circled-image-1 {
-  background-image: url("http://placehold.it/280x280");
+  background-image: url('../img/noun_project_6324.svg');
 }
 
 .circled-image-2 {
-  background-image: url("http://placehold.it/280x280");
+  background-image: url('../img/noun_project_14291.svg');
 }
 
 .circled-image-3 {
