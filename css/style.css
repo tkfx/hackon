@@ -9400,14 +9400,13 @@ border-radius: 20px;
     -moz-background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    height: 400px;
 }
 
 .schedule-wrapper {
     padding: 12px 15px;
     margin: 0 auto;
-    max-width: 700px;
-
+    max-width: 720px;
+    display: inline-block;
 }
 
 .schedule-day1 {
@@ -9416,16 +9415,16 @@ border-radius: 20px;
     background-color: rgba(255,255,255,0.8);
     width: 320px;
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .schedule-day2 {
-    float: right;
+    float: left;
     padding: 12px 15px;
     background-color: rgba(255,255,255,0.8);
     width: 320px;
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .schedule-line {
@@ -9498,13 +9497,13 @@ border-radius: 20px;
     -moz-background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    height: 400px;
+    min-height: 700px;
 }
 
 .partners-wrapper {
     padding: 12px 15px;
-    margin: 0 auto;
-    width: 900px;
+    margin: auto auto;
+    max-width: 900px;
     display: inline-block;
 }
 
@@ -9516,6 +9515,7 @@ border-radius: 20px;
     width: 250px;
     border-radius: 8px;
     margin: 10px;
+    height: 120px;
 }
 
 /**
