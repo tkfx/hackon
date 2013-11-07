@@ -9503,12 +9503,12 @@ border-radius: 20px;
 .partners-wrapper {
     padding: 12px 15px;
     margin: auto auto;
-    max-width: 900px;
+    max-width: 840px;
     display: inline-block;
 }
 
 .partner {
-    display: block;
+    display: inline-block   ;
     float: left;
     padding: 12px 15px;
     background-color: rgba(255,255,255,0.8);
@@ -9516,6 +9516,18 @@ border-radius: 20px;
     border-radius: 8px;
     margin: 10px;
     height: 120px;
+}
+
+.partner-join {
+    display: inline-block;
+    padding: 12px 15px;
+    float: left;
+    background-color: rgba(255,255,255,0.8);
+    width: 97.6%;
+    border-radius: 8px;
+    margin: 10px;
+    max-height: 90px;
+    text-align: center;
 }
 
 /**
