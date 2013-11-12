@@ -9500,6 +9500,11 @@ border-radius: 20px;
     min-height: 700px;
 }
 
+.partners-wrapper h2 {
+  color: #000000;
+}
+
+
 .partners-wrapper {
     padding: 12px 15px;
     margin: auto auto;
