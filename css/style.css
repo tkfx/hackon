@@ -9492,10 +9492,10 @@ border-radius: 20px;
 *****************************************************/
 .section-partners {
     padding: 50px 0 60px 0;
-    background: #1a1e23 url('../img/parallax2.jpg') repeat;
-    -webkit-background-size: cover;
+    background: #1a1e23 url('../img/parallax3.png') repeat;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     text-align: center;
     min-height: 700px;
 }
