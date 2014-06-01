@@ -9453,11 +9453,11 @@ border-radius: 20px;
 
 .team-member {
     display: block;
-    width: 145px;
-    height: 230px;
+    /*width: 145px;
+    height: 230px;*/
     float: left;
     background-color: #fff;
-    margin: 10px 10px;
+    /*margin: 10px 10px;*/
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
